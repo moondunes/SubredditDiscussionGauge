@@ -20,7 +20,7 @@ You will want to add words to the `ADDITIONAL_STOPWORDS` array that you don't ca
 ## Main.py setup
 https://praw.readthedocs.io/en/latest/code_overview/models/subreddit.html#praw.models.Subreddit.search
 
-I highly suggest getting yourself familiar with this PRAW documentation, as it will define how you grab your posts. By default, PRAW only grabs 25 posts, and has a max of 1000. You can set the limit to 1000 by setting `limit` to `None`. For example, 'subreddit.hot(limit=100)` will return 100 posts from the hot section of that subreddit. `subreddit.search('flair:"Rumor"', limit=None)` on r/nfl would return all posts flaired 'Rumor' available within the 1000 returned by PRAW. Remember, r/all is also considered a subreddit!
+I highly suggest getting yourself familiar with this PRAW documentation, as it will define how you grab your posts. By default, PRAW only grabs 25 posts, and has a max of 1000. You can set the limit to 1000 by setting `limit` to `None`. For example, `subreddit.hot(limit=100)` will return 100 posts from the hot section of that subreddit. `subreddit.search('flair:"Rumor"', limit=None)` on r/nfl would return all posts flaired 'Rumor' available within the 1000 returned by PRAW. Remember, r/all is also considered a subreddit!
 
 ## Results.txt
 Just a plain text file to write your results to, nothing fancy here!
