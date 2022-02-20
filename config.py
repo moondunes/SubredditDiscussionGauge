@@ -1,0 +1,6 @@
+client_id = '<client_id>'
+client_secret = '<client_secret>'
+username = '<botUsername>'
+password = '<botPassword>'
+user_agent = 'Subreddit Trend Guage v1.0 by MoonDunes'
+subreddit_name = '<subreddit_name>'
